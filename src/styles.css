@@ -72,3 +72,26 @@ img {
   font-weight: bold;
   font-size: 18px;
 }
+
+@media (max-width: 576px) {
+  h2 {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 15px;
+    width: 300px;
+  }
+
+  #play-record-button {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 9px 15px;
+    margin-bottom: 180px;
+  }
+}
