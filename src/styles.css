@@ -1,24 +1,74 @@
 :root {
-  --primary-color: rgb(176, 178, 184);
+  --heading-color: rgb(151, 151, 151);
+  --font-family: "Roboto", sans-serif;
+  --box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  text-align: center;
+  background-color: black;
+  font-family: var(--font-family);
 }
 
 h1 {
-  font-family: "Lora", serif;
   color: white;
-  margin: 17px 0;
+  font-weight: bold;
+  font-size: 72px;
+  margin: 25px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 h2 {
-  font-size: 17px;
+  font-size: 24px;
   font-weight: bold;
-  color: rgb(163, 163, 163);
+  color: var(--heading-color);
+  margin-top: 180px;
 }
 
 h3 {
-  font-size: 20px;
-  color: white;
+  font-size: 18px;
+  color: var(--heading-color);
+  width: 680px;
+  line-height: 30px;
+}
+
+video {
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  opacity: 0.8;
+  filter: blur(3px);
+}
+
+#play-record-button {
+  border-radius: 50px;
+  background-color: whitesmoke;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 18px 30px;
+  margin-bottom: 301px;
 }
 
 img {
-  width: 100%;
+  filter: grayscale(1);
+  width: 360px;
+  height: 360px;
+  margin-top: 30px;
+  box-shadow: var(--box-shadow);
+}
+
+.singers {
+  text-transform: uppercase;
+  margin-top: -10px;
+  margin-bottom: 50px;
+  font-family: var(--font-family);
+  font-size: 18px;
+}
+
+.song-name {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 18px;
 }
