@@ -1,7 +1,8 @@
 :root {
-  --heading-color: rgb(151, 151, 151);
+  --primary-color: rgb(151, 151, 151);
+  --secondary-color: #e84e7b;
   --font-family: "Roboto", sans-serif;
-  --box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow: 5px 5px 40px rgba(189, 189, 189, 0.3);
 }
 
 .card {
@@ -19,16 +20,31 @@ h1 {
   letter-spacing: 0.1em;
 }
 
-h2 {
+h2 #full-name {
   font-size: 24px;
   font-weight: bold;
-  color: var(--heading-color);
+  color: var(--primary-color);
   margin-top: 180px;
+}
+
+#about-me {
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 80px;
+}
+
+p {
+  font-family: var(--font-family);
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 h3 {
   font-size: 18px;
-  color: var(--heading-color);
+  color: var(--primary-color);
   width: 680px;
   line-height: 30px;
 }
@@ -38,7 +54,7 @@ video {
   left: 0px;
   top: 0px;
   opacity: 0.8;
-  filter: blur(3px);
+  filter: blur(2px);
 }
 
 #play-record-button {
@@ -56,7 +72,9 @@ img {
   width: 360px;
   height: 360px;
   margin-top: 30px;
+  margin-bottom: 50px;
   box-shadow: var(--box-shadow);
+  border-radius: 5px;
 }
 
 .singers {
@@ -65,12 +83,34 @@ img {
   margin-bottom: 50px;
   font-family: var(--font-family);
   font-size: 18px;
+  color: white;
 }
 
 .song-name {
   font-family: var(--font-family);
   font-weight: bold;
   font-size: 18px;
+  color: white;
+}
+
+hr {
+  color: whitesmoke;
+}
+body {
+  background-color: black;
+}
+
+.personal-photo {
+  width: 480px;
+  height: 500px;
+  margin-top: 80px;
+}
+
+.btn {
+  background-color: var(--secondary-color);
+  color: black;
+  font-weight: bold;
+  border-radius: 25px;
 }
 
 @media (max-width: 576px) {
