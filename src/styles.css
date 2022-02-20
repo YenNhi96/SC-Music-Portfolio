@@ -136,7 +136,16 @@ body {
 }
 
 .list-group-item-action {
-  background: linear-gradient(45deg, rgb(62, 70, 78), rgb(151, 151, 151));
+  background: linear-gradient(45deg, rgb(60, 67, 75), rgb(138, 136, 136));
+}
+
+#collection-video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 @media (max-width: 576px) {
   h2 {
