@@ -20,7 +20,7 @@ h1 {
   letter-spacing: 0.1em;
 }
 
-h2 #full-name {
+#full-name {
   font-size: 24px;
   font-weight: bold;
   color: var(--primary-color);
@@ -65,6 +65,14 @@ video {
   font-weight: bold;
   padding: 18px 30px;
   margin-bottom: 301px;
+}
+
+#title {
+  text-transform: uppercase;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin: 30px 0;
 }
 
 img {
@@ -113,6 +121,23 @@ body {
   border-radius: 25px;
 }
 
+.collection-photo {
+  filter: grayscale(1);
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: var(--box-shadow);
+  border-radius: 8px;
+}
+
+.collection-table {
+  max-width: 860px;
+}
+
+.list-group-item-action {
+  background: linear-gradient(45deg, rgb(62, 70, 78), rgb(151, 151, 151));
+}
 @media (max-width: 576px) {
   h2 {
     margin-top: 20px;
