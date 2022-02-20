@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgb(151, 151, 151);
+  --primary-color: rgb(161, 161, 161);
   --secondary-color: #e84e7b;
   --font-family: "Roboto", sans-serif;
   --box-shadow: 5px 5px 40px rgba(189, 189, 189, 0.3);
@@ -42,7 +42,7 @@ p {
   line-height: 30px;
 }
 
-h3 {
+#summary {
   font-size: 18px;
   color: var(--primary-color);
   width: 680px;
@@ -109,8 +109,8 @@ body {
 }
 
 .personal-photo {
-  width: 480px;
-  height: 500px;
+  width: 450px;
+  height: auto;
   margin-top: 80px;
 }
 
@@ -147,6 +147,26 @@ body {
   top: 0;
   left: 0;
 }
+
+.contact-title {
+  text-align: center;
+  margin: 60px auto;
+}
+
+.contact-container {
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 18px;
+}
+
+.contact-heading {
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 @media (max-width: 576px) {
   h2 {
     margin-top: 20px;
@@ -157,7 +177,7 @@ body {
     font-size: 36px;
   }
 
-  h3 {
+  #summary {
     font-size: 15px;
     width: 300px;
   }
