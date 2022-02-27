@@ -176,7 +176,17 @@ body {
 }
 
 .list-group-item-action {
-  background: linear-gradient(45deg, rgb(42, 43, 44), rgb(122, 123, 124));
+  background: black;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.list-group-item-action:hover {
+  background-color: var(--primary-color);
+}
+
+h5 {
+  color: #e84e7b;
 }
 
 #collection-video {
