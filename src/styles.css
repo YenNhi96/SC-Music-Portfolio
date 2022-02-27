@@ -266,9 +266,19 @@ i:hover {
     font-size: 36px;
   }
 
+  .personal-photo {
+    width: 260px;
+    height: auto;
+  }
+
+  .footer-email,
+  #footer-mark {
+    font-size: 18px;
+  }
+
   #summary {
     font-size: 15px;
-    width: 300px;
+    width: 260px;
   }
 
   #play-record-button {
